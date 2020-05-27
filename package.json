@@ -1,0 +1,26 @@
+{
+  "name": "mycatalogapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyhaz/MyCatalogueApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyhaz/MyCatalogueApp/issues"
+  },
+  "homepage": "https://github.com/dyhaz/MyCatalogueApp#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}

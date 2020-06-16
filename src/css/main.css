@@ -264,3 +264,7 @@ textarea {
   }
 }
 
+.item-description {
+  height: 400px;
+  overflow-y: scroll;
+}

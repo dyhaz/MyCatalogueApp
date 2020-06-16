@@ -42,7 +42,7 @@ class DataSource {
   }
 
   static getMostPopular() {
-    return fetch(`https://api.jikan.moe/v3/anime/1/airing`)
+    return fetch(`https://api.jikan.moe/v3/top/anime/1/airing`)
       .then(response => {
         return response.json();
       })
